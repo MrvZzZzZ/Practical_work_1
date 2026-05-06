@@ -39,6 +39,18 @@
 ## Как запустить проект
 
 1. Клонируйте репозиторий:
-   ```bash
+   ```
+   bash
    git clone MrvZzZzZ/Practical_work_1
    cd Practical_work_1
+   ```
+2. Установите зависимости
+   ```
+   pip install pandas numpy scikit-learn xgboost matplotlib seaborn jupyter
+   ```
+3. Откройте и запустите ноутбук:
+   ```
+   jupyter notebook Практическая_работа_№1.ipynb
+   ```
+   
+   Примечание: Ноутбук полностью совместим с Google Colab. Для корректного запуска ячеек задач 1 и 2 требуется подключение к интернету (датасеты скачиваются автоматически через !wget).
